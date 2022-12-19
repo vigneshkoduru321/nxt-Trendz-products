@@ -1,0 +1,23 @@
+.filters-group-container {
+  margin-top: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .filters-group-container {
+    width: 30%;
+    max-width: 350px;
+    margin-top: 48px;
+    flex-shrink: 0;
+  }
+}
+
+li {
+  list-style-type: none;
+}
+.img {
+  height: 20px;
+}
+button {
+  border-width: 0px;
+  margin: 10px;
+}
